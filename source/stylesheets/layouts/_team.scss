@@ -1,0 +1,29 @@
+#team h1 {
+  text-align: center;
+  font-family: $headers-font;
+  font-size: 20px;
+  color: $red;
+}
+#team p {
+  margin-top: 20px;
+  text-align: center;
+  font-family: $headers-font;
+  font-size: 20px;
+  color: $blue;
+}
+
+#team li {
+  margin: 10px 20px;
+  text-align: center;
+}
+
+.team-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.avatar {
+  width: 150px;
+  border-radius: 50%;
+}

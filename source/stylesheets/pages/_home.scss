@@ -1,7 +1,7 @@
 #home {
   background-color: #D23333;
   color: white;
-  height: 100vh;
+  height: 30vh;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -14,4 +14,14 @@
     font-weight: bold;
     font-size: 16px;
   }
+}
+
+.container {
+  text-align: center;
+}
+
+.container h1 {
+  font-family: $headers-font;
+  margin-bottom: 35px;
+  margin-top: 0;
 }

@@ -14,7 +14,9 @@
   <body>
     <!-- if you want to have elements that are shared between pages put them here -->
     <!-- best way of injecting elements is to call partials, and saving the partials in layouts -->
+    <%= partial "layouts/navbar" %>
     <%= yield %>
+    <%= partial "layouts/footer" %>
     <!-- if you want to have elements that are shared between pages put them here -->
   </body>
 </html>
