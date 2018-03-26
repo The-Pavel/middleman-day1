@@ -1,0 +1,16 @@
+.single-container {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: white;
+  height: 80vh;
+  background-size: cover;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  &:hover {
+    transform: scale(1.03);
+    transition: all 0.2s ease;
+  }
+}
